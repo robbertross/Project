@@ -77,8 +77,10 @@ colnames(filteredDB) <- c("tBodyAcc-mean()-X",
                           "Activity")
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+# Group by Subject and Activity and summarise mean the columns
 library(dplyr)
 filteredDB_grouped <- group_by(filteredDB, Subject, Activity)
 tidyDB <- filteredDB_grouped %>% summarise_each(funs(mean))
 
+# Write the final result to a file
 write.table(tidyDB, "tidyDB.txt", row.names=FALSE)
