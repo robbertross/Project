@@ -37,13 +37,13 @@ The dataset includes the following files:
 
 If you want to re-run the data cleaning script, please make sure that the original data files are available in the following location:
 
-./UCI HAR Dataset/activity_labels.txt
-./UCI HAR Dataset/test/subject_test.txt
-./UCI HAR Dataset/test/X_test.txt
-./UCI HAR Dataset/test/y_test.txt
-./UCI HAR Dataset/train/subject_train.txt
-./UCI HAR Dataset/train/X_train.txt
-./UCI HAR Dataset/train/y_train.txt
+* ./UCI HAR Dataset/activity_labels.txt
+* ./UCI HAR Dataset/test/subject_test.txt
+* ./UCI HAR Dataset/test/X_test.txt
+* ./UCI HAR Dataset/test/y_test.txt
+* ./UCI HAR Dataset/train/subject_train.txt
+* ./UCI HAR Dataset/train/X_train.txt
+* ./UCI HAR Dataset/train/y_train.txt
 
 The cleaning script is commented and self-explanatory.
 
