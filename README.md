@@ -1,6 +1,5 @@
 ==================================================================
-Tidy Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+Tidy Human Activity Recognition Using Smartphones Dataset - Version 1.0
 
 ==================================================================
 Tidy Dataset by Robbert Ross as part of Coursera course project.
